@@ -1,0 +1,63 @@
+{
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnType": true
+    },
+    /*  "python.linting.pylintArgs": [
+        // "--rcfile=${env:HOME}/.pylintrc"
+        "--rcfile=${env:HOME}/RP_robot_control/.vscode/.pylintrc"
+    ], */
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.enabled": true,
+    "editor.lineHeight": 1.15,
+    "editor.lineNumbers": "off",
+    // "python.linting.mypyEnabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "cmake.configureOnOpen": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    // "python.formatting.yapfArgs": [
+    //     "--style={based_on_style: google, column_limit: 100, indent_width: 4}"
+    // ],
+    "editor.fontSize": 13.5,
+    "customvscodeuicss.css": "/home/ubuntu/Documents/custom.css",
+    "breadcrumbs.enabled": false, // hide full path
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "editor.folding": false,
+    "git.decorations.enabled": false,
+    "editor.glyphMargin": true,
+    /*  "pylint.args": [
+        //"--rcfile=${env:HOME}/.pylintrc"
+        "--rcfile=${env:HOME}/RP_robot_control/.vscode/.pylintrc"
+    ], */
+    // "python.linting.pycodestyleEnabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: google, ColumnLimit: 100}",
+    "C_Cpp.formatting": "clangFormat",
+    "workbench.colorTheme": "Default Dark+",
+    "editor.inlineSuggest.enabled": true,
+    "plantuml.server": "http://localhost:8080",
+    "plantuml.render": "PlantUMLServer",
+    "window.title": "${activeEditorLong}${separator}",
+    "window.newWindowDimensions": "inherit",
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "hediet.vscode-drawio.resizeImages": null,
+    "extensions.autoUpdate": false,
+    "files.insertFinalNewline": true,
+    "cmake.showOptionsMovedNotification": false
+    // "uncrustify.configPath.linux": "ament_lint/ament_uncrustify/ament_uncrustify/configuration/ament_code_style.cfg",
+    // "plantuml.commandArgs": [
+    //     "-Xmx2g",
+    //     "-DPLANTUML_LIMIT_SIZE=16384"
+    // ]
+}
